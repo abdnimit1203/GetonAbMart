@@ -4,7 +4,7 @@ import { TiArrowSortedUp } from "react-icons/ti";
 
 const NavHeader = () => {
   return (
-    <div className="bg-slate-700 w-full text-white py-2 px-[10%]">
+    <div className="bg-slate-700 w-full text-white py-2 px-[10%] text-xs md:text-base">
       <div className="flex justify-between">
         <div className="hover:text-primary cursor-pointer">20% discount on products for students!</div>
         <div className="flex gap-4">
