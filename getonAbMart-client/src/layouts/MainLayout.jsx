@@ -4,9 +4,9 @@ import Footer from "../components/Footer/Footer";
 
 const MainLayout = () => {
     return (
-        <div>
-           <div><Navbar/></div>
-           <div><Outlet/></div>
+        <div >
+           <div ><Navbar/></div>
+           <div className="px-[5%] md:px-[10%]"><Outlet/></div>
            <div><Footer/></div>
         </div>
     );

@@ -10,7 +10,7 @@ const NavHeader = () => {
         <div className="flex gap-4">
           <Link className="hover:text-primary">Order Tracking</Link>
           <Link className="border-r-2 pr-6 hover:text-primary">FAQs</Link>
-          <div className="dropdown dropdown-bottom dropdown-end dropdown-hover">
+          <div className="dropdown dropdown-bottom dropdown-end dropdown-hover z-10">
             <div tabIndex={0} role="button" className="hover:text-primary">
               Language (US) <FaCaretDown className="inline" />
             </div>

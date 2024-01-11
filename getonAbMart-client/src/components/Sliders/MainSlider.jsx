@@ -50,7 +50,7 @@ const MainSlider = () => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-1  gap-2">
         <div className="relative">
-          <div className="absolute text-xs text-white p-4 md:text-lg bg-gradient-to-tr from-[#1111118f]  to-[#11111100] lg:bg-none h-[100%]">
+          <div className="absolute rounded-xl text-xs text-white p-4 md:text-lg bg-gradient-to-tr from-[#1111118f]  to-[#11111100] lg:bg-none h-[100%]">
             <p className="">
               Top Sold<br /> Product <br /> of 2023!
             </p>
@@ -58,7 +58,7 @@ const MainSlider = () => {
           <img src="/images/banner1.jpg" alt="banner1" className="rounded-xl" />
         </div>
         <div className="relative">
-          <div className="absolute text-xs text-white p-4 md:text-lg bg-gradient-to-tr from-[#1111118f] to-[#11111100] lg:bg-none h-full ">
+          <div className="absolute rounded-xl text-xs text-white p-4 md:text-lg bg-gradient-to-tr from-[#1111118f] to-[#11111100] lg:bg-none h-full ">
             <p>
               Best Choice <br /> of the Year!
             </p>
