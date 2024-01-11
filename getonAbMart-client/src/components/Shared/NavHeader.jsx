@@ -38,7 +38,6 @@ const NavHeader = () => {
               </div>
             </ul>
           </div>
-          
         </div>
       </div>
     </div>

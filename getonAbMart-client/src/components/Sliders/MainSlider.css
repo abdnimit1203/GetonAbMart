@@ -1,0 +1,13 @@
+.swiper-pagination-bullet-active {
+  background: white !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 14px !important;
+  background: white;
+  color: black;
+  margin: 10px 20px;
+  padding: 10px 14px;
+  border-radius: 100%;
+}
